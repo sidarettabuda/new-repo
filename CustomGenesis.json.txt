@@ -1,0 +1,19 @@
+{
+   "config": {
+        "chainId": 424242, // identifies the current chain and is used for replay protection. You should set it to a unique value for your private chain
+        "homesteadBlock": 0, //your chain won't be undergoing the switch to Homestead, so leave this as 0
+        "eip155Block": 0, //your chain won't be hard-forking for these changes, so leave as 0
+        "eip158Block": 0 //your chain won't be hard-forking for these changes, so leave as 0
+    },
+    "nonce": "0x0000000000000042",
+    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "difficulty": "0x400",
+    "alloc": {},
+    "coinbase": "0x3333333333333333333333333333333333333333",
+    "timestamp": "0x00",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "gasLimit": "0xffffffff",
+    "alloc": {
+        "fa09241feb6967da4458615f5dcd44054da8ce6c": { "balance": "500042" }
+    }
+}
