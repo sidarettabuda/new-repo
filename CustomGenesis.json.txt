@@ -6,12 +6,12 @@
         "eip158Block": 0 //your chain won't be hard-forking for these changes, so leave as 0
     },
     "nonce": "0x0000000000000042",
-    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "mixhash": "0x44444444444444444444444444444444",
     "difficulty": "0x400",
     "alloc": {},
-    "coinbase": "0x3333333333333333333333333333333333333333",
+    "coinbase": "0x444444444444444444444444444444",
     "timestamp": "0x00",
-    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0x44444444444444444444444",
     "gasLimit": "0xffffffff",
     "alloc": {
         "fa09241feb6967da4458615f5dcd44054da8ce6c": { "balance": "500042" }
